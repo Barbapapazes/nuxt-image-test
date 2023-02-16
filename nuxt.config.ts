@@ -4,6 +4,10 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
   ],
 
+  image: {
+    provider: 'ipx',
+  },
+
   nitro: {
     prerender: {
       routes: ['/'],
